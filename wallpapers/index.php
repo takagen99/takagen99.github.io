@@ -18,7 +18,8 @@ $myLinks = array("https://takagen99.github.io/wallpapers/01.png",
     "https://takagen99.github.io/wallpapers/13.jpg",
     "https://takagen99.github.io/wallpapers/14.jpg",
     "https://takagen99.github.io/wallpapers/15.jpg",
-	"https://takagen99.github.io/wallpapers/16.jpg");
+    "https://takagen99.github.io/wallpapers/16.jpg",
+	"https://takagen99.github.io/wallpapers/17.jpg");
 
 $randomRedirection = $myLinks[array_rand($myLinks)];
 header("Location: $randomRedirection");
