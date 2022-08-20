@@ -1,0 +1,42 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.black {
+  color: #292b2c;
+}
+.popover {
+  max-width: 60% !important;
+}
+.quota {
+  font-size: 13px;
+}
+.options-button:after {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  float: right;
+  margin-left: 5px;
+  width: 8px;
+}
+.options-button.options-button--expanded:after {
+  content: '\f107';
+}
+.original-repo td {
+  font-weight: bold;
+}
+.darkmode-layer,
+.darkmode-toggle {
+  z-index: 500;
+}
+#data-body {
+  display: none;
+  padding-bottom: 15px;
+}
+#footer {
+  margin-top: 20px;
+  padding: 20px;
+}
+#forkTable {
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
